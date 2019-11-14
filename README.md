@@ -6,7 +6,7 @@
 
 ![MuseoToolBox logo](https://github.com/nkarasiak/MuseoToolBox/raw/master/metadata/museoToolBox_logo_128.png)
 
-**MuseoToolBox** is a python library to simplify the use of raster/vector, especially for machine learning and remote sensing. It is now easy to extract raster values from vector polygons and to do some spatial/unspatial cross-validation for scikit-learn from raster.
+**MuseoToolBox** (Museo Toolbox) is a python library to simplify the use of raster/vector, especially for machine learning and remote sensing. It is now easy to extract raster values from vector polygons and to do some spatial/unspatial cross-validation for scikit-learn from raster.
 
 One of the most meaningful contribution is, in my humble opinion, the [rasterMath](https://museotoolbox.readthedocs.io/en/latest/modules/raster_tools/museotoolbox.raster_tools.rasterMath.html#museotoolbox.raster_tools.rasterMath) class which allows you to do any expression/function on a raster in a just few lines : compute the mean in all bands, the modal value, smooth a signal, compute the ndvi... all you have to do is to give your own function to MuseoToolBox, and **rasterMath** manages everything : the nodata value, reading the raster block per block, saving the result to a new raster with a fast compression. [Examples to use rasterMath are available on readthedocs](https://museotoolbox.readthedocs.io/en/latest/modules/raster_tools/museotoolbox.raster_tools.rasterMath.html#museotoolbox.raster_tools.rasterMath).
 
@@ -46,7 +46,7 @@ Alternatively, you can install **museotoolbox** directly from the git :
 
 Feel free to remove the `--user` if you like to install the library for every user on the machine.
 
-## Who built MuseoToolBox ?
+## Who built Museo ToolBox ?
 
 I am [Nicolas Karasiak](http://www.karasiak.net), a Phd student at Dynafor Lab. I work tree species mapping from space throught dense satellite image time series, especially with Sentinel-2. A special thanks goes to [Mathieu Fauvel](http://fauvel.mathieu.free.fr/) who initiated me to the beautiful world of the open-source.
 
